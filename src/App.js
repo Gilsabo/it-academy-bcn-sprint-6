@@ -1,25 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import FirstComponent from './components/Escena/Escena';
+import dataHistory from './frases';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <FirstComponent frase={dataHistory[0]} />
+      <FirstComponent frase={dataHistory[1]} />
+      <FirstComponent frase={dataHistory[2]} />
+      <FirstComponent frase={dataHistory[3]} />
+    </>
+  )
 }
 
 export default App;
