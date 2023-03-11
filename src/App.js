@@ -1,15 +1,15 @@
 import './App.css';
-import FirstComponent from './components/Escena/Escena';
-import dataHistory from './frases';
+import Escena from './components/Escena/Escena';
+import ScreenButtons from './components/ScreenButtons/ScreenButtons';
+import frases from './frases';
 
 
 function App() {
   return (
     <>
-      <FirstComponent frase={dataHistory[0]} />
-      <FirstComponent frase={dataHistory[1]} />
-      <FirstComponent frase={dataHistory[2]} />
-      <FirstComponent frase={dataHistory[3]} />
+      <ScreenButtons />
+      <Escena first={frases[0]} second={frases[1]} third ={frases[2]} forth ={frases[3]} />
+      
     </>
   )
 }

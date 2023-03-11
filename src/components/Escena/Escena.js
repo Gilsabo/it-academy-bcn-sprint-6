@@ -1,15 +1,28 @@
 
 import React from 'react'
-import StyledButton from './StyledButton'
+import StyledEscena from './StyledEscena'
 
 
 
-const FirstComponent = props => {
+
+
+const Escena = ({ first, second, third, forth }) => {
+
+
     return (
-            <StyledButton className="escena">
-                {props.frase}
-            </StyledButton>
-         
+        <>
+            <StyledEscena className="escena" >{first}</StyledEscena>
+            <StyledEscena className="escena" >{second}</StyledEscena>
+            <StyledEscena className="escena" >{third}</StyledEscena>
+            <StyledEscena className="escena" >{forth}</StyledEscena>
+
+        </>
+
     )
 }
-export default FirstComponent
+export default Escena
+
+
+/*{ frases.map((frase)=>(
+    <StyledEscena className="escena" >{frase}</StyledEscena>
+    ))}*/
