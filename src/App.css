@@ -1,3 +1,59 @@
- .escena:first-of-type{
-  background-color: #FFC0CB;
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap');
+
+.background{
+  position: absolute;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  top:0%;
 }
+
+
+.box-welcome{
+  padding-top:5%;                 
+  
+}
+body{
+  height: 100vh;
+  margin: 0px;
+  background-image:radial-gradient(#e66465, #9198e5);
+  font-family: 'Space Grotesk', sans-serif;
+  
+  
+
+}
+
+.welcome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 600px;
+  border: 3px solid white;
+  border-radius: 10px;
+  margin:0 auto;
+  color: white;
+  background-color: #0c0c16;
+  background-image: radial-gradient(circle at 10% 50%, #0c0c16 0%, #28283f 60%, #3d3c59 100%);
+                    
+  background-blend-mode: screen, normal;  
+}
+
+.last-text{
+  text-align: center;
+  margin-top: 4rem;
+}
+
+button{
+  color: white;
+  background-image:radial-gradient(#e66465, #9198e5);
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor:pointer;
+}
+
