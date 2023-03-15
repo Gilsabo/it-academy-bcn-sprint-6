@@ -1,20 +1,18 @@
-/*import StylesScreenButtons from "./StyledScreenButtons";
+import StylesScreenButtons from "./StyledScreenButtons";
 
+const ScreenButtons = ({ paintAnterior, paintSeguent }) => {
+  return (
+    <>
+      <div>
+        <StylesScreenButtons onClick={paintAnterior}>
+          Back
+        </StylesScreenButtons>
+        <StylesScreenButtons onClick={paintSeguent}>
+          Next
+        </StylesScreenButtons>
+      </div>
+    </>
+  );
+};
 
-
-
- 
-const ScreenButtons = ({handleCLickAnterior,handleCLickSegüent }) => {
-
-
-   
-
-    return (
-        <>
-            <StylesScreenButtons onClick={() => handleCLickAnterior(3)}>Anterior</StylesScreenButtons>
-            <StylesScreenButtons onClick={() => handleCLickSegüent(4)}>Següent</StylesScreenButtons>
-        </>
-    );
-}
- 
-export default ScreenButtons;*/
+export default ScreenButtons;
