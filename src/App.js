@@ -21,7 +21,7 @@ function App() {
                 <ul>
                   <li>Rendering lists</li>
                   <li>UseState hook</li>
-                  <li>Condicitional rending</li>
+                  <li>Condicitional rendering</li>
                 </ul>
                 <p className="last-text">
                   After you click the button, you can interact with the back and
